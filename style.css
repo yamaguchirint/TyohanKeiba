@@ -1,0 +1,187 @@
+input:-webkit-autofill {
+    box-shadow: 0 0 0 1000px #f8f8f8 inset;
+    text-decoration: underline;
+}
+
+body{
+    background-color:#f8f8f8;
+    margin: 0 auto;
+    width: 650px;
+    font-family: 'New Tegomin', serif;
+}
+
+.title{
+    margin: 0 auto;
+    width: 200px;
+    font-family: 'New Tegomin', serif;
+    font-weight: 900;
+    font-size: 25px;
+}
+.title .points{
+    color: red;
+}
+
+#RuleTexts{
+    font-family: 'New Tegomin', serif;
+}
+
+#RuleTexts .rule .hl{
+    color: red;
+}
+
+.status{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap:nowrap;
+}
+.ticket{
+    font-size: 25px;
+    width: 325px;
+}
+.wallet{
+    margin-left: 150px;
+    font-size: 25px;
+    width: 325px;
+}
+
+.button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    appearance: none;
+    
+}
+
+.cups{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 -55px;
+}
+.cup{
+    position: relative;
+}
+
+#oe_a{
+    position: absolute;
+    top: -100px;
+    left: 88px;
+    font-size: 25px;
+    font-family: 'New Tegomin', serif;
+}
+#oe_b{
+    position: absolute;
+    top: -100px;
+    left: 88px;
+    font-size: 25px;
+    font-family: 'New Tegomin', serif;
+}
+#oe_c{
+    position: absolute;
+    top: -100px;
+    left: 90px;
+    font-size: 25px;
+    font-family: 'New Tegomin', serif;
+}
+
+/*サイコロ*/
+.dice_1{
+    position: absolute;
+    top: -100px;
+    left: 55px;
+    opacity: 0;
+    
+}
+
+.dice_2{
+    position: absolute;
+    top: -70px;
+    left: 95px;
+    opacity: 0;
+}
+
+.textform{
+    display: inline-block;
+    margin: 0 auto;
+    width: 150px;
+    height: 40px;
+    font-size: 35px;
+    font-family: 'New Tegomin', serif;
+
+    background-color: lightgray;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+}
+
+.ticket .baken{
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'New Tegomin', serif;
+}
+
+.texts_oe_out{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.outtext_oe{
+    width: 25px;
+    margin:0px 88px;
+    font-size: 25px;
+}
+
+.bet{
+    font-size: 30px;
+    margin-left: 0px;
+}
+.back{
+    margin-left: 300px;
+    font-size: 30px;
+}
+
+#Bet_Money{
+    letter-spacing: 3px;
+    font-size: 30px;
+    background-color: #f8f8f8;
+    text-decoration: underline;
+}
+
+::placeholder{
+    padding: 50px 0px;
+    font-size: 22px;
+}
+
+#StartButton{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    appearance: none;
+
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 70px;
+    font-family: 'New Tegomin', serif;
+    font-size: 30px;
+    color: lightgray;
+}
+.button .start{
+    width: 100px;
+}
+
+#Back_Money{
+    display: inline-block;
+    margin: 0 auto;
+    width: 150px;
+    height: 50px;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'New Tegomin', serif;
+}

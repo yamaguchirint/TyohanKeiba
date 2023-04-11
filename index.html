@@ -1,0 +1,53 @@
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&family=Yuji+Syuku&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+
+</head>
+
+<body>
+    <div class="title">
+        <h1>丁<span class="points">半</span>競馬</h1>
+    </div>
+
+    <div class="status">
+    <span class="ticket">馬券: <input class="button baken" id="TicketType" type="button" value="なし" onclick="ButtonPUSH(3)"></span>
+    <span class="wallet">所持金: <span class="wallet_money" id="wallet">3000</span>円</span>
+</div>
+<br>
+    <div class="texts_oe_out">
+    <span class="outtext_oe" id="oe_a_out">　</span>
+    <span class="outtext_oe" id="oe_b_out">　</span>
+    <span class="outtext_oe" id="oe_c_out">　</span>
+    </div>
+    <div class="cups">
+    <button class="button" onclick="ButtonPUSH(0);"><span class="button cup" id="a"><span id="oe_a"></span><img id="cup_image_a" src="./images/cup.png" width="200" height="200" alt="紙コップ"><img class ="dice_1" id="dice_a_1" src="./images/sai1.png" width="50" height="50" alt=""><img class ="dice_2" id="dice_a_2" src="./images/sai1.png" width="50" height="50" alt=""></span></span></button>
+    <button class="button" onclick="ButtonPUSH(1);"><span class="button cup" id="b"><span id="oe_b"></span><img id="cup_image_b" src="./images/cup.png" width="200" height="200" alt="紙コップ"><img class ="dice_1" id="dice_b_1" src="./images/sai1.png" width="50" height="50" alt=""><img class ="dice_2" id="dice_b_2" src="./images/sai1.png" width="50" height="50" alt=""></span></span></button>
+    <button class="button" onclick="ButtonPUSH(2);"><span class="button cup" id="c"><span id="oe_c"></span><img id="cup_image_c" src="./images/cup.png" width="200" height="200" alt="紙コップ"><img class ="dice_1" id="dice_c_1" src="./images/sai1.png" width="50" height="50" alt=""><img class ="dice_2" id="dice_c_2" src="./images/sai1.png" width="50" height="50" alt=""></span></span></button>
+    </div>
+    
+    
+    <span class="bet money"> 掛金: <input class="textform" id="Bet_Money" type="text" name="name" size="20" placeholder="タップで入力">円</span>
+    <br>
+    <span class="back money"> 払戻金: <span id="Back_Money"></span>円</span>
+    <div class="button start"><input id="StartButton" type="button" value="開始" onclick="ButtonPUSH(4)"></div>
+    <br>
+
+    <div id="RuleTexts">
+        <div class="rule 1">　単勝: <span class="hl">1つの</span>選択したコップの奇遇を当てる。&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; (オッズ: <span class="hl">1.3倍</span>)</div>
+        <div class="rule 2">　複勝: <span class="hl">全ての</span>コップの<span class="hl">合計の奇遇の数</span>を当てる。&emsp;&emsp;&emsp;&emsp;&ensp; (オッズ: <span class="hl">1.5倍</span>)</div>
+        <div class="rule 3">三連単: <span class="hl">選択した全ての</span>コップ<span class="hl">それぞれ</span>の奇遇を当てる。 &ensp;&ensp;&ensp;(オッズ: <span class="hl">3倍</span>)</div>
+    </div>
+    
+    
+
+
+</body>
+
+</html>
